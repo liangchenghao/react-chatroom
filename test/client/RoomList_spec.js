@@ -52,7 +52,7 @@ describe("RoomList组件",()=>{
         Simulate.click( ReactDOM.findDOMNode($rooms[1]) )
         expect( currentRoom ).to.equal("1")
 
-        expect( isCompositeComponentWithType( component,RoomList ) ).to.be.true
+        // expect( isCompositeComponentWithType( component,RoomList ) ).to.be.true
         // console.log("isElement",TestUtil.isElement(RoomListElm))
         // console.log("isElementOfType",TestUtil.isElementOfType(RoomListElm,RoomList))
         // console.log("TestUtil.isDOMComponent",TestUtil.isDOMComponent( component ))
